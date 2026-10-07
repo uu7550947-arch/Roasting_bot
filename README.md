@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Fun Roast Telegram Bot
 
 Java 17 + Spring Boot 3.2.3 + Telegram Long Polling.
@@ -31,3 +32,6 @@ Set `TELEGRAM_BOT_TOKEN` in the environment. Do not commit the real token to Git
 - Uses message keywords, length, and time of day for varied Hinglish friend-style roasts.
 - `/roast` and menu button are supported.
 - No external AI API required.
+=======
+# Roasting_bot
+>>>>>>> 545088e8bc8882423084be18c9698ce7fca763b6
