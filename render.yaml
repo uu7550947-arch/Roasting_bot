@@ -1,0 +1,16 @@
+services:
+  - type: web
+    name: telegram-bot-tw-service
+    runtime: docker
+    plan: free
+    envVars:
+      - key: TELEGRAM_BOT_TOKEN
+        sync: false
+      - key: TELEGRAM_BOT_USERNAME
+        value: IGL_TW_BOT_SERVICE_BOT
+      - key: BOT_BATCH_MAX_ITEMS
+        value: "2000"
+      - key: BOT_BATCH_WORKERS
+        value: "4"
+      - key: BOT_BATCH_DELAY_MS
+        value: "350"
